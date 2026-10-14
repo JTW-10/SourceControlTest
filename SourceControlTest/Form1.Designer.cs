@@ -103,6 +103,7 @@
             btnCalculateAddition.TabIndex = 2;
             btnCalculateAddition.Text = "Calculate";
             btnCalculateAddition.UseVisualStyleBackColor = true;
+            btnCalculateAddition.Click += btnCalculateAddition_Click;
             // 
             // Form1
             // 
