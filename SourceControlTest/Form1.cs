@@ -15,5 +15,10 @@ namespace SourceControlTest
             double additionResult = Convert.ToDouble(additionNum1) + Convert.ToDouble(additionNum2);
             txtResultAddition.Text = Convert.ToString(additionResult);
         }
+
+        private void btnCalculateSubtraction_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

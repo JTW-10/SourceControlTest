@@ -36,6 +36,14 @@
             lblResultAddition = new Label();
             txtResultAddition = new TextBox();
             btnCalculateAddition = new Button();
+            btnCalculateSubtraction = new Button();
+            txtResultSubtraction = new TextBox();
+            lblResultSubtraction = new Label();
+            txtNum2Subtraction = new TextBox();
+            lblNum2Subtraction = new Label();
+            txtNum1Subtraction = new TextBox();
+            lblNum1Subtraction = new Label();
+            lblSubtraction = new Label();
             SuspendLayout();
             // 
             // lblAddition
@@ -105,11 +113,86 @@
             btnCalculateAddition.UseVisualStyleBackColor = true;
             btnCalculateAddition.Click += btnCalculateAddition_Click;
             // 
+            // btnCalculateSubtraction
+            // 
+            btnCalculateSubtraction.Location = new Point(425, 127);
+            btnCalculateSubtraction.Name = "btnCalculateSubtraction";
+            btnCalculateSubtraction.Size = new Size(75, 23);
+            btnCalculateSubtraction.TabIndex = 10;
+            btnCalculateSubtraction.Text = "Calculate";
+            btnCalculateSubtraction.UseVisualStyleBackColor = true;
+            btnCalculateSubtraction.Click += btnCalculateSubtraction_Click;
+            // 
+            // txtResultSubtraction
+            // 
+            txtResultSubtraction.Location = new Point(443, 98);
+            txtResultSubtraction.Name = "txtResultSubtraction";
+            txtResultSubtraction.Size = new Size(100, 23);
+            txtResultSubtraction.TabIndex = 7;
+            // 
+            // lblResultSubtraction
+            // 
+            lblResultSubtraction.AutoSize = true;
+            lblResultSubtraction.Location = new Point(394, 101);
+            lblResultSubtraction.Name = "lblResultSubtraction";
+            lblResultSubtraction.Size = new Size(39, 15);
+            lblResultSubtraction.TabIndex = 3;
+            lblResultSubtraction.Text = "Result";
+            // 
+            // txtNum2Subtraction
+            // 
+            txtNum2Subtraction.Location = new Point(443, 69);
+            txtNum2Subtraction.Name = "txtNum2Subtraction";
+            txtNum2Subtraction.Size = new Size(100, 23);
+            txtNum2Subtraction.TabIndex = 8;
+            // 
+            // lblNum2Subtraction
+            // 
+            lblNum2Subtraction.AutoSize = true;
+            lblNum2Subtraction.Location = new Point(394, 72);
+            lblNum2Subtraction.Name = "lblNum2Subtraction";
+            lblNum2Subtraction.Size = new Size(43, 15);
+            lblNum2Subtraction.TabIndex = 4;
+            lblNum2Subtraction.Text = "Num 2";
+            // 
+            // txtNum1Subtraction
+            // 
+            txtNum1Subtraction.Location = new Point(443, 40);
+            txtNum1Subtraction.Name = "txtNum1Subtraction";
+            txtNum1Subtraction.Size = new Size(100, 23);
+            txtNum1Subtraction.TabIndex = 9;
+            // 
+            // lblNum1Subtraction
+            // 
+            lblNum1Subtraction.AutoSize = true;
+            lblNum1Subtraction.Location = new Point(394, 43);
+            lblNum1Subtraction.Name = "lblNum1Subtraction";
+            lblNum1Subtraction.Size = new Size(43, 15);
+            lblNum1Subtraction.TabIndex = 5;
+            lblNum1Subtraction.Text = "Num 1";
+            // 
+            // lblSubtraction
+            // 
+            lblSubtraction.AutoSize = true;
+            lblSubtraction.Location = new Point(434, 22);
+            lblSubtraction.Name = "lblSubtraction";
+            lblSubtraction.Size = new Size(68, 15);
+            lblSubtraction.TabIndex = 6;
+            lblSubtraction.Text = "Subtraction";
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(btnCalculateSubtraction);
+            Controls.Add(txtResultSubtraction);
+            Controls.Add(lblResultSubtraction);
+            Controls.Add(txtNum2Subtraction);
+            Controls.Add(lblNum2Subtraction);
+            Controls.Add(txtNum1Subtraction);
+            Controls.Add(lblNum1Subtraction);
+            Controls.Add(lblSubtraction);
             Controls.Add(btnCalculateAddition);
             Controls.Add(txtResultAddition);
             Controls.Add(lblResultAddition);
@@ -134,5 +217,13 @@
         private Label lblResultAddition;
         private TextBox txtResultAddition;
         private Button btnCalculateAddition;
+        private Button btnCalculateSubtraction;
+        private TextBox txtResultSubtraction;
+        private Label lblResultSubtraction;
+        private TextBox txtNum2Subtraction;
+        private Label lblNum2Subtraction;
+        private TextBox txtNum1Subtraction;
+        private Label lblNum1Subtraction;
+        private Label lblSubtraction;
     }
 }
